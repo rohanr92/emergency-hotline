@@ -1255,6 +1255,15 @@
     background-repeat: no-repeat;
     background-position-x: -50%;
   }
+  .cursor-auto {
+    cursor: auto;
+  }
+  .cursor-no-drop {
+    cursor: no-drop;
+  }
+  .cursor-none {
+    cursor: none;
+  }
   .cursor-pointer {
     cursor: pointer;
   }
