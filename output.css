@@ -1321,6 +1321,9 @@
   .bg-\[\#00A63E\] {
     background-color: #00A63E;
   }
+  .bg-\[\#DFEFFF\] {
+    background-color: #DFEFFF;
+  }
   .bg-\[\#F2F2F2\] {
     background-color: #F2F2F2;
   }
@@ -1549,6 +1552,11 @@
       padding: 40px;
     }
   }
+  .md\:px-\[50px\] {
+    @media (width >= 48rem) {
+      padding-inline: 50px;
+    }
+  }
   .md\:px-\[60px\] {
     @media (width >= 48rem) {
       padding-inline: 60px;
@@ -1614,6 +1622,11 @@
       padding: 40px;
     }
   }
+  .lg\:px-\[50px\] {
+    @media (width >= 64rem) {
+      padding-inline: 50px;
+    }
+  }
   .lg\:px-\[60px\] {
     @media (width >= 64rem) {
       padding-inline: 60px;
@@ -1672,6 +1685,11 @@
   .xl\:p-\[40px\] {
     @media (width >= 80rem) {
       padding: 40px;
+    }
+  }
+  .xl\:px-\[50px\] {
+    @media (width >= 80rem) {
+      padding-inline: 50px;
     }
   }
   .xl\:px-\[60px\] {
