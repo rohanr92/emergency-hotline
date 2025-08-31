@@ -24,5 +24,4 @@ querySelectorAll - selects all elements that match a CSS selector.
 
 5. What is the difference between preventDefault() and stopPropagation() methods?
 - preventDefault() is used to stop the default action of an element. For example, when we submit a form, the default action is page reload using preventDefault() we can stop that.
-
-stopPropagation() is used to stop the event from bubbling up to parent elements. It does not reload or stop reloading the page, it just prevents the event from moving to parents.
+- stopPropagation() is used to stop the event from bubbling up to parent elements. It does not reload or stop reloading the page, it just prevents the event from moving to parents.
