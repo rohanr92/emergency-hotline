@@ -18,8 +18,7 @@ querySelectorAll - selects all elements that match a CSS selector.
 
 4. What is Event Delegation in JavaScript? Why is it useful?
 - Event delegation in JavaScript means putting the event listener on a parent element instead of every single child element. Because of event bubbling, when we click a child, the event goes up to the parent, and the parent can check which child was clicked.
-
-This is useful because we don’t need to add lots of event listeners for many elements. It also works for elements that are added later (dynamically), since the parent is already listening.
+- This is useful because we don’t need to add lots of event listeners for many elements. It also works for elements that are added later (dynamically), since the parent is already listening.
 
 
 
