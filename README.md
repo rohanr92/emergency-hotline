@@ -12,7 +12,7 @@ querySelectorAll - selects all elements that match a CSS selector.
 
 
 3. What is Event Bubbling and how does it work?
--Event bubbling is a way how events work in JavaScript. When an event happens on a child element, it does not stop there, it keeps moving up (bubbling) to its parent, then to the grandparent, and so on until it reaches the top document. For example, if we click a button inside a div, first the button’s event runs, then the div event runs, and then it can go further up. This is called event bubbling. 
+- Event bubbling is a way how events work in JavaScript. When an event happens on a child element, it does not stop there, it keeps moving up (bubbling) to its parent, then to the grandparent, and so on until it reaches the top document. For example, if we click a button inside a div, first the button’s event runs, then the div event runs, and then it can go further up. This is called event bubbling. 
 
 
 
