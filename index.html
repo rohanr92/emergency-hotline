@@ -12,10 +12,10 @@
 
 <body class="bg-[#f5fff6]">
     <header class="mx-w-[1920px] mx-auto bg-white">
-        <div class="flex content-centerm items-center w-full justify-between px-[60px]  h-[100px]">
+        <div class="flex content-centerm items-center w-full sm:justify-between md:justify-between lg:justify-between xl:justify-between md:px-[60px] lg:px-[60px] xl:px-[60px]  h-[100px] p-[15px] gap-[10px]">
             <div class="flex items-center content-center gap-[10px]">
                 <img src="./assets/logo.png" alt="" height="70px" width="70px">
-                <h2 class="text-[#006747] font-extrabold text-[20px]">Emergency <br> Service</h2>
+                <h2 class="text-[#006747] font-extrabold text-[20px] hidden md:block lg:block xl:block">Emergency <br> Service</h2>
             </div>
             <div class="flex content-center items-center gap-[20px]">
                 <div class="flex gap-[12px] bg-[rgba(65,255,107,0.1)] rounded-3xl px-[25px] py-[10px]">
@@ -24,7 +24,7 @@
                 </div>
                 <div class="px-[25px] py-[10px] flex gap-[10px] bg-[rgba(65,255,107,0.1)] rounded-3xl"><span id="coin-minus">100</span>
                     <img src="./assets/coin.png" alt="" height="25px" width="25px"></div>
-                <div><button class="btn btn-primary"><span id="copy-count">0</span> Copy</button></div>
+                <div><button class="btn bg-[#00A63E] text-white rounded-3xl"><span id="copy-count">0</span> Copy</button></div>
             </div>
         </div>
 
@@ -49,7 +49,7 @@
         <!-- Card Section Make -->
 
         <div class="xl:flex lg:flex md:flex mx-w-[1920px] mx-auto md:p-[40px] lg:p-[40px] xl:p-[40px] gap-[20px] mt-[40px] p-[15px]">
-            <div class="xl:w-[75%] lg:w-[75%] md:w-[75%] grid md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 md:grid-rows-3 gap-[20px] xl:justify-center md:justify-center lg:justify-center">
+            <div class="xl:w-[75%] lg:w-[75%] md:w-[75%] grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-[20px] xl:justify-center md:justify-center lg:justify-center">
 
                 <!-- card design starts from here -->
 
@@ -308,7 +308,7 @@
                         <div class="w-[100%]">
                             <button
                                 class="btn-copy btn w-full border-[1px] border-[#D4D6D5] rounded-[8px] text-[#5C5C5C]  h-[40px] font-roboto text-[16px] font-normal mr-[8px]">
-                                <i class="fa-solid fa-copy text-[#5C5C5C] mr-[1px]"></i> Call
+                                <i class="fa-solid fa-copy text-[#5C5C5C] mr-[1px]"></i> Copy
                             </button>
                         </div>
 
@@ -318,7 +318,7 @@
                         <div class="w-[100%]">
                             <button
                                 class="call-function btn w-full bg-[#00A63E] rounded-[8px] text-white  h-[40px] font-roboto text-[16px] font-normal">
-                                <i class="fa-solid fa-phone text-white mr-[1px]"></i> Copy
+                                <i class="fa-solid fa-phone text-white mr-[1px]"></i> Call
                             </button>
                         </div>
                     </div>
@@ -482,8 +482,8 @@
 
 
                 <div class="w-100% flex justify-between items-center content-center mb-[16px]">
-                    <h2>Call History</h2>
-                    <button class="btn btn-primary rounded-4xl" id="clear-history">Primary</button>
+                    <h2 class="text-[#111111] font-roboto font-medium text-[18px]"><i class="fa-solid fa-clock-rotate-left"></i>  Call History</h2>
+                    <button class="btn btn-primary rounded-4xl bg-[#00A63E] outline-0 border-0" id="clear-history">Primary</button>
                 </div>
 
                 <div id="section-id">
